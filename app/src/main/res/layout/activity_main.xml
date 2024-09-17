@@ -21,15 +21,16 @@
 
     <TextView
         android:id="@+id/textDisplay"
-        android:layout_width="128dp"
-        android:layout_height="23dp"
-        android:layout_marginTop="84dp"
+        android:layout_width="200dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="88dp"
         android:shadowColor="@color/teal_200"
         android:shadowDx="40"
         android:shadowDy="30"
         android:shadowRadius="30"
         android:text="Air Supply is the best band EVER!"
-        app:layout_constraintEnd_toEndOf="@+id/spinner"
-        app:layout_constraintStart_toStartOf="@+id/spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner" />
 </androidx.constraintlayout.widget.ConstraintLayout>
